@@ -19,11 +19,17 @@ This project is about processing the large given dataset to predit the status of
 ## Python Libraries Used
 
 Sklearn
+
 Pandas
+
 Numpy
+
 Matplotlib
+
 Seaborn
+
 Pickle
+
 Streamlit
 
 ## Data Preprocessing and Model Building
