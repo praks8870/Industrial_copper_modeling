@@ -37,25 +37,25 @@ Streamlit
 The Given data may have many data missing, Having outliers, Having White spaces, Having null values and having noices and other process hindrances,
 We need to check and clean the data befor processing for a Machine learning model or EDA. Lets see the preprocessing steps involved in this given dataset.
 
-Step:1
+Step:1.
 In the finrst hand we need to understand the data. See how the data is distributed, How many dependant and independant variables available, And how many features are there for the model selection
 
-Step:2
+Step:2.
 Select the important features and chack them for the skewness, noise and outliers using histplot, violin plot and boxplot. 
 
-Step:3
+Step:3.
 Some data may not be evaluated or visually analysed using the plots, since it hase more noise we use log transformation to transform the data to be worked in the model.
 
-Step:4
+Step:4.
 By using box plot we can assume that there is some outliers, We can use IQR method and robust methods to clean the outlies. Since we worked woth the outliers, skewness and noises we can prepare the training and testing datasets to prepare the ML model.
 
-Step:5
+Step:5.
 There is lot of clasification and regression models are available in sklearn we have to select the best model for the predictiondi of status and selling price. Clasification model is used for catagorical data since predicting status won or lost is catagorical we use clasification model for status prediction depending on the high accuracy. We selecting the Random Forest clasifier is it has the highest accuracy score on training and testing data.
 
-Step:6
+Step:6.
 As same as the clasification we use Random forest regressor for the selling price prediction, Since the data we have to predict is numerical we are using regression model. The important creteria in regression model is R2 vallue. Random forest regressor has the high R2 value here.
 
-Step:7
+Step:7.
 After the model is successfully build we are storing the model in picle to use it when ever we need the prediction. Since the buildig and testing the model took longer time we are reducing the time consumtion on every prediction we choose to save the model in a pickle file.
 
 ## Streamlit App Building
