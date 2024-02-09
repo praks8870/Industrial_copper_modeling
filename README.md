@@ -1,5 +1,3 @@
-# Industrial_copper_modeling
-
 # Industrial Copper Modelling
 
 ## About:
