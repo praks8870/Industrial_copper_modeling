@@ -26,7 +26,7 @@ st.markdown("""
         </style>
         """, unsafe_allow_html=True)
 
-selected = option_menu(None, ['Predict Price', 'Predict Status'],
+selected = option_menu(None, ['Home', 'Predict Price', 'Predict Status'],
                        icons=[],
                        default_index=0,
                        orientation="horizontal",
@@ -34,6 +34,14 @@ selected = option_menu(None, ['Predict Price', 'Predict Status'],
                                "icon": {"font-size": "35px"},
                                "container" : {"max-width": "6000px"},
                                "nav-link-selected": {"background-color": "#6495ED"}})
+
+
+if selected == "Home":
+    col1,col2 =st.columns(2, gap = 'medium')
+
+    col1.markdown("### :blue[Title] : Industrial Copper Modeling Using Python Scripting and Streamlit")
+    col1.markdown("### :blue[Overview] : This Streamlit app is used to deploy the classification and the regression Machine learning models for the purpose of testing the Status of the material and to predict the selling price of the given data. The data has been pre processed and used to build the models")
+    col1.markdown("### :blue[Technologies Used] : Python, Streamlit, Pandas, Matplotlib, Seaborn, Scikit Learn, Pickle, Regular Expression and Numpy")
 
 
 if selected == 'Predict Price':
