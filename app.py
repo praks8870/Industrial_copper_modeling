@@ -20,7 +20,7 @@ st.title("Industrial Copper Modeling")
 st.markdown("""
     <style>
         .stApp {
-            background-image: url("https://media.gettyimages.com/id/1274373899/photo/full-frame-side-of-a-newly-polished-copper-cooking-pot.jpg?s=612x612&w=0&k=20&c=M1rs5P-HpYjXpofg6DD6YYfw0caeejtEiQqiY65Gd18=");
+            background-image: url("");
             background-size: cover;
         }
         </style>
